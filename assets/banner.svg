@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 400" width="1600" height="400" role="img" aria-label="XYZK — The Art of Software">
+  <defs>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#ffffff" fill-opacity="0.022"/>
+    </pattern>
+    <radialGradient id="halo" cx="26%" cy="42%" r="62%">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.055"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="g1"><rect x="58" y="184" width="505" height="2"/></clipPath>
+    <clipPath id="g2"><rect x="58" y="238" width="505" height="1.5"/></clipPath>
+    <style>
+      .cur { animation: blink 1.4s steps(1) infinite; }
+      @keyframes blink { 0%, 55% { opacity: .85 } 56%, 100% { opacity: 0 } }
+      .mark { animation: mark 6s ease-in-out infinite; }
+      @keyframes mark { 0%,100% { opacity: .55 } 50% { opacity: .18 } }
+    </style>
+  </defs>
+
+  <rect width="1600" height="400" fill="#050505"/>
+  <rect width="1600" height="400" fill="url(#halo)"/>
+  <rect width="1600" height="400" fill="url(#scan)"/>
+  <rect x="0.5" y="0.5" width="1599" height="399" fill="none" stroke="#ffffff" stroke-opacity="0.10"/>
+
+  <g stroke="#ffffff" stroke-opacity="0.20" stroke-width="1">
+    <path d="M40 32v14M33 39h14"/>
+    <path d="M1560 32v14M1553 39h14"/>
+    <path d="M40 354v14M33 361h14"/>
+    <path d="M1560 354v14M1553 361h14"/>
+  </g>
+
+  <g font-family="ui-monospace,SFMono-Regular,Consolas,monospace" fill="#6f6f6f">
+    <text x="64" y="66" font-size="13" letter-spacing="3.6">0XYZK1</text>
+    <text x="168" y="66" font-size="13" letter-spacing="3.6" fill="#434343">/ PROFILE / 001</text>
+    <text x="1536" y="66" font-size="13" letter-spacing="3.6" text-anchor="end" fill="#434343">MMXXVI</text>
+  </g>
+  <rect class="cur" x="141" y="54" width="6" height="11" fill="#f2f2ef" fill-opacity="0.9"/>
+
+  <g font-family="Inter,Helvetica,Arial,sans-serif" font-size="196" font-weight="500" fill="#f4f4f1" letter-spacing="-6">
+    <text x="58" y="252">XYZK</text>
+  </g>
+  <rect x="58" y="184" width="505" height="2" fill="#050505"/>
+  <g clip-path="url(#g1)" font-family="Inter,Helvetica,Arial,sans-serif" font-size="196" font-weight="500" fill="#f4f4f1" letter-spacing="-6">
+    <text x="62" y="252">XYZK</text>
+  </g>
+
+  <line x1="58" y1="300" x2="600" y2="300" stroke="#ffffff" stroke-opacity="0.14"/>
+  <text x="61" y="332" font-family="Inter,Helvetica,Arial,sans-serif" font-size="15" letter-spacing="10.2" fill="#d4d4d1">THE ART OF SOFTWARE</text>
+  <text x="61" y="364" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="11.5" letter-spacing="2.8" fill="#4f4f4f">SELF-TAUGHT &#183; SOLO &#183; AI-ASSISTED</text>
+
+  <line x1="1064" y1="96" x2="1064" y2="332" stroke="#ffffff" stroke-opacity="0.13"/>
+  <line x1="1100" y1="96" x2="1536" y2="96" stroke="#ffffff" stroke-opacity="0.10"/>
+  <g font-family="ui-monospace,SFMono-Regular,Consolas,monospace">
+    <text x="1100" y="136" font-size="12.5" letter-spacing="3.4" fill="#5c5c5c">STACK</text>
+    <text x="1100" y="164" font-size="17.5" letter-spacing="0.6" fill="#e8e8e5">PYTHON &#183; HTML &#183; CSS</text>
+
+    <text x="1100" y="218" font-size="12.5" letter-spacing="3.4" fill="#5c5c5c">METHOD</text>
+    <text x="1100" y="246" font-size="17.5" letter-spacing="0.6" fill="#e8e8e5">SOLO &#183; AI-ASSISTED</text>
+
+    <text x="1100" y="300" font-size="12.5" letter-spacing="3.4" fill="#5c5c5c">STATUS</text>
+    <text x="1100" y="328" font-size="17.5" letter-spacing="0.6" fill="#e8e8e5">OPEN FOR IDEAS</text>
+  </g>
+
+  <g class="mark">
+    <rect x="1548" y="348" width="12" height="12" fill="none" stroke="#ffffff" stroke-opacity="0.35"/>
+    <rect x="1553" y="353" width="2" height="2" fill="#ffffff" fill-opacity="0.6"/>
+  </g>
+</svg>
